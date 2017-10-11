@@ -1,0 +1,43 @@
+p {
+  padding-bottom: 100px;
+}
+
+* {
+  margin: 0px;
+}
+
+.main {
+  margin-left: 250px;
+}
+
+
+
+
+
+.sidebar {
+  position: fixed;
+  
+  width: 200px;
+  height: 100%;
+  
+  color: white;
+  background-color: black;
+
+  left: 0px;
+  transition: right 0.3s, left 0.3s;
+
+  overflow: auto;
+}
+
+.dark-overlay {
+  width: 100%;
+  left: 200px;
+  // display: none;
+}
+
+
+
+.sidebar.hidden {
+  left: -200px;
+}
+

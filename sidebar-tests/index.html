@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+
+
+  <body>
+    <div class="sidebar">
+      <p>menu item 1</p>
+      <p>menu item 2</p>
+      <p>menu item 3</p>
+      <p>menu item 4</p>
+      <p>menu item 5</p>
+      <p>menu item 6</p>
+      <p>menu item 7</p>
+      <p>menu item 8</p>
+      <p>menu item 9</p>
+      <p>menu item 10</p>
+    </div>
+
+    <div class="dark-overlay"></div>
+    
+    <div class="main">
+      <button id="menu-toggle">Toggle menu</button>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+    </div>
+
+    <script>
+      $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $(".sidebar").toggleClass("hidden");
+      });
+    </script>
+  </body>
+</html>
